@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-model: gpt-4.1
+model: gpt-5.6-sol
 engine:
   id: copilot
   copilot-sdk: true
