@@ -12,6 +12,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit: true
   web-fetch:
@@ -22,10 +23,11 @@ safe-outputs:
     draft: false
 ---
 
-Read `notes/mona-notes.md` and the existing `site/content/github-info.md` first. Fetch both of these official sources with the web-fetch tool:
+Read `notes/mona-notes.md` and the existing `site/content/github-info.md` first. Fetch each of these sources with the web-fetch tool:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use only confirmed, relevant updates from those sources. Revise `site/content/github-info.md` with short, practical guidance that helps developers learn GitHub, follows Mona's editorial notes, and fits the existing page. Link each new factual update to its source. Do not invent details or change any other file.
 
